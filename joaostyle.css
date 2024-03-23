@@ -1,0 +1,252 @@
+/* style.c
+ss */
+body
+
+/* Continuação do seu style.css */
+
+.btn-comprar {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+}
+
+.btn-comprar:hover {
+    background-color: #0056b3;
+}
+
+
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sobre-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.imagem-sobre img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 4px;
+    flex-basis: 40%;
+}
+
+.texto-sobre {
+    flex-grow: 1;
+}
+
+h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.tabela-sobre table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabela-sobre th, .tabela-sobre td {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    text-align: left;
+}
+
+.tabela-sobre th {
+    background-color: #ff0000;
+    color: #ff0000;
+}
+
+.tabela-sobre td {
+    background-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .sobre-content {
+        flex-direction: column;
+    }
+
+    .imagem-sobre img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sobre-content {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.imagem-sobre img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.texto-sobre {
+    flex: 1;
+}
+
+.tabela-sobre table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela-sobre th, .tabela-sobre td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabela-sobre th {
+    background-color: #f2f2f2;
+}
+
+{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Para garantir que padding não afete a largura */
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff0000;
+    color: white;
+    padding: 30px 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+
+    
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 0.8em;
+}
+
+main {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
